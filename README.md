@@ -1,1 +1,1 @@
-# EriOpenCV
+# Smart Surveillance System
