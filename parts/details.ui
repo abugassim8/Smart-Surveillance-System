@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>816</width>
+    <height>608</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame_3">
+      <property name="styleSheet">
+       <string notr="true">*
+{
+font-family:century gothic;
+font-size:24px;
+}
+
+QFrame
+{
+background:rgba(170, 255, 255, 100);
+border-radius:15px;
+
+}
+
+QPushButton
+{
+background:red;
+border-radius:60px;
+
+}
+QToolButton
+{
+background:white;
+border-radius:6px;
+
+}
+QLabel
+{
+font-family:&quot;Lobster&quot;;
+color:white;
+background:transparent;
+}
+
+QPushButton
+{
+color:white;
+border-radius:15px;
+}
+
+QPushButton:hover
+{
+color:#333;
+border-radius:15px;
+background:#49ebff;
+}
+
+QLineEdit
+{
+font-size:18px;
+background:transparent;
+border:none;
+color:#717072;
+border-bottom:1px solid #717072;
+}
+
+
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="11" column="9" colspan="7">
+        <spacer name="horizontalSpacer_45">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>205</width>
+           <height>17</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="10" column="5">
+        <spacer name="verticalSpacer_13">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>17</width>
+           <height>107</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="13" column="14" colspan="2">
+        <spacer name="verticalSpacer_12">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>128</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="7" column="13" rowspan="4">
+        <spacer name="verticalSpacer_11">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>204</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="12" column="17">
+        <spacer name="horizontalSpacer_22">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>202</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="9" colspan="8">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Criminal Records</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="0">
+        <spacer name="horizontalSpacer_43">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>184</width>
+           <height>14</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="17">
+        <spacer name="horizontalSpacer_17">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>208</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="5" column="9" rowspan="2" colspan="8">
+        <widget class="QLineEdit" name="surnameEdit">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Normal</enum>
+         </property>
+         <property name="placeholderText">
+          <string>Surname</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="9" colspan="5">
+        <spacer name="horizontalSpacer_44">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>120</width>
+           <height>17</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="4" column="0" colspan="3">
+        <spacer name="horizontalSpacer_18">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>182</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="8" column="4" rowspan="2" colspan="3">
+        <widget class="QPushButton" name="browsefolder">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>century gothic</family>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">*
+{
+font-family:century gothic;
+font-size:16px;
+}
+
+QPushButton
+{
+background:rgb(255, 255, 255);
+border-radius:60px;
+}
+
+
+QPushButton
+{
+color:rgb(0, 0, 0);
+border-radius:20px;
+}
+
+
+QPushButton:hover
+{
+color:#333;
+border-radius:20px;
+background:#49ebff;
+}</string>
+         </property>
+         <property name="text">
+          <string>Browse folder</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="3">
+        <spacer name="horizontalSpacer_12">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>182</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="6" colspan="3">
+        <spacer name="horizontalSpacer_13">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>253</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="12" column="10" colspan="7">
+        <widget class="QPushButton" name="Submit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>century gothic</family>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">*
+{
+font-family:century gothic;
+font-size:24px;
+}
+
+QPushButton
+{
+background:rgb(85, 0, 0);
+border-radius:60px;
+}
+
+
+QPushButton
+{
+color:white;
+border-radius:15px;
+}
+
+
+QPushButton:hover
+{
+color:#333;
+border-radius:15px;
+background:#49ebff;
+}</string>
+         </property>
+         <property name="text">
+          <string>Submit</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4" colspan="2">
+        <widget class="QLineEdit" name="nameEdit">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Name</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6" colspan="3">
+        <spacer name="horizontalSpacer_16">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>212</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="5" column="17">
+        <spacer name="horizontalSpacer_21">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>121</width>
+           <height>17</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="9" colspan="8">
+        <widget class="QLineEdit" name="recordEdit">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Normal</enum>
+         </property>
+         <property name="placeholderText">
+          <string>Records</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="9">
+        <spacer name="horizontalSpacer_47">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>115</width>
+           <height>47</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="5" column="7" rowspan="3" colspan="2">
+        <spacer name="horizontalSpacer_20">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>293</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="11">
+        <spacer name="verticalSpacer_9">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>57</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="3" rowspan="2" colspan="3">
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>Add Image</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1" rowspan="5" colspan="8">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <family>Lobster</family>
+           <pointsize>-1</pointsize>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel
+{
+border : 2px dashed #aaa
+}</string>
+         </property>
+         <property name="text">
+          <string>Drag Drop Image</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="16">
+        <spacer name="verticalSpacer_8">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>95</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="9" rowspan="2" colspan="2">
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>Surname</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="5">
+        <spacer name="verticalSpacer_7">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>95</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="17">
+        <spacer name="horizontalSpacer_14">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>208</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="4" column="15" colspan="3">
+        <spacer name="horizontalSpacer_19">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>208</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="5" column="5" rowspan="3" colspan="2">
+        <widget class="QPushButton" name="Browsefile">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>century gothic</family>
+           <pointsize>-1</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">*
+{
+font-family:century gothic;
+font-size:16px;
+}
+
+QPushButton
+{
+background:rgb(255, 255, 255);
+border-radius:60px;
+}
+
+
+QPushButton
+{
+color:rgb(0, 0, 0);
+border-radius:20px;
+}
+
+
+QPushButton:hover
+{
+color:#333;
+border-radius:20px;
+background:#49ebff;
+}</string>
+         </property>
+         <property name="text">
+          <string>Browse Image</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0" rowspan="2" colspan="3">
+        <spacer name="horizontalSpacer_48">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>75</width>
+           <height>47</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="4" colspan="2">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Add Name</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="8">
+        <spacer name="horizontalSpacer_23">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>182</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="13" column="0">
+        <spacer name="horizontalSpacer_46">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>63</width>
+           <height>13</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="4" column="6" colspan="3">
+        <spacer name="horizontalSpacer_55">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>340</width>
+           <height>17</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="0" colspan="3">
+        <spacer name="horizontalSpacer_15">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>182</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="5" column="0" rowspan="2" colspan="5">
+        <widget class="QLineEdit" name="Imagetext">
+         <property name="styleSheet">
+          <string notr="true">QLineEdit
+{
+font-size:8px;
+
+}
+</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
