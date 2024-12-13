@@ -1,1 +1,9 @@
 # Smart Surveillance System
+
+Smart Surveillance system is a software tool providing its user with the ability to surveil a given area and notify with relevant watch list information. The application spans to adding a new person previously unknown to the system so that the entire functionality of the system can be extended, thus making surveillance tasks easier and more efficient.
+
+First an algorithm is an effective method that can be expressed within a finite amount of space and time and in a well-defined formal language for calculating a function. Starting from an initial state and initial input (perhaps empty), the instructions describe a computation that, when executed, proceeds through a finite number of well-defined successive states, eventually producing "output" and terminating at a final ending state. Formally, Face Recognition is defined as the problem of identifying or verifying faces in an image. How exactly do we recognize a face in an image?
+Face recognition can be divided into multiple steps.
+  1. Face detection — Detecting one or more faces in an image.
+  2. Feature extraction — Extracting the most important features from an image of the face.
+  3. Face classification — Classifying the face based on extracted features.
