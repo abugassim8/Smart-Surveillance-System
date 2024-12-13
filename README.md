@@ -7,3 +7,5 @@ Face recognition can be divided into multiple steps.
   1. Face detection — Detecting one or more faces in an image.
   2. Feature extraction — Extracting the most important features from an image of the face.
   3. Face classification — Classifying the face based on extracted features.
+
+By using those steps the system updates it's recognition database from the data it is given. The accuracy depends on the quality and size of the data it is fed and displays the profiles of the people that are recognized all using a modern GUI.
