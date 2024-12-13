@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="main">
+    <file>DeepinMind-face-rec.jpg</file>
+    <file>main bg.jpg</file>
+  </qresource>
+  <qresource prefix="Icons">
+    <file>museum.png</file>
+    <file>tasks.png</file>
+    <file>gender_neutral_user.png</file>
+    <file>menu.png</file>
+    <file>shutdown.png</file>
+    <file>unsplash.png</file>
+  </qresource>
+</RCC>

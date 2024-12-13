@@ -1,0 +1,8 @@
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    Login = QtWidgets.QDialog()
+    ui = Ui_Form()
+    ui.setupUi(Login)
+    Login.show()
+    sys.exit(app.exec_())
