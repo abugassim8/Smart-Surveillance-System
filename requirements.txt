@@ -1,0 +1,25 @@
+# requirements.txt
+
+# Core vision & ML
+tensorflow>=2.10.0,<2.13.0
+mtcnn==0.1.1
+dlib==19.24.0
+opencv-python>=4.5.5.64,<4.6.0
+
+# Embeddings & classification
+numpy>=1.23.0,<1.26.0
+scipy>=1.9.0,<1.11.0
+scikit-learn>=1.1.0,<1.3.0
+
+# GUI & database
+pyqt5>=5.15.9,<5.17.0
+pysqlite3-binary>=0.4.6  # if you need explicit SQLite bindings
+
+# Utilities & testing
+pytest>=7.1.2,<8.0.0
+pytest-cov>=3.0.0,<4.0.0
+black==23.1.0             # code formatting
+flake8>=5.0.0,<6.0.0      # linting
+
+# (Optional) demonstration & reporting
+matplotlib>=3.6.0,<3.9.0
