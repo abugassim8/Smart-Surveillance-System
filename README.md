@@ -67,7 +67,13 @@ Algorithmic Details
    • Triplet loss minimizes same-identity distances, maximizes different-identity distances  
 3. **Classification**  
    • SVM (linear kernel, probability outputs) over embeddings  
-   • Decision boundary defined by support vectors  
+   • Decision boundary defined by support vectors
+
+GUI in Action
+-------------------
+![Screenshot 2025-05-06 035147](https://github.com/user-attachments/assets/fd9a2462-49ae-47aa-8b5b-78184cedb705)
+
+
 
 Testing & Validation
 --------------------
