@@ -54,24 +54,6 @@ Usage
 7. **Pause**: temporarily halt detection/recognition.  
 8. **Search**: retrieve any suspect’s stored profile by ID, name, or race.
 
-Project Structure
------------------
-├─ models/ Pretrained networks (MTCNN, FaceNet)
-├─ data/
-│ ├─ train_img/ Raw images per suspect
-│ └─ pre_img/ Aligned, cropped face images
-├─ gui/ Qt Designer .ui files
-├─ src/
-│ ├─ detection.py MTCNN / Dlib / Haar detectors
-│ ├─ embedding.py FaceNet embedding + triplet loss
-│ ├─ classify.py SVM training & inference
-│ ├─ database.py SQLite wrappers
-│ └─ main.py PyQt5 GUI launcher
-├─ classifier.pkl Latest trained SVM + class names
-├─ FaceNetdb.db SQLite database file
-├─ requirements.txt
-└─ readme.txt
-
 
 
 Algorithmic Details
